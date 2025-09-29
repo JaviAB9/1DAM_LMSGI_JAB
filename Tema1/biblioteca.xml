@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bibliotecas>
+<biblioteca ciudad= "Malaga">
+<libro>
+    <titulo> El Quijote </titulo>
+    <autor> Miguel Cervantes </autor>
+    <paginas> 350 </paginas>
+</libro>
+<libro>
+    <titulo> asdsadsad </titulo>
+    <autor> asdasdas </autor>
+    <paginas> 289 </paginas>
+</libro>
+</biblioteca>
+
+<biblioteca ciudad= "Jaen">
+<libro>
+    <titulo> El Quijote </titulo>
+    <autor> Miguel Cervantes </autor>
+    <paginas> 350 </paginas>
+</libro>
+</biblioteca>
+</bibliotecas>
