@@ -6,7 +6,50 @@
     <title> CURRICULUM </title>
 </head>
 <body>
-    
-    
+    <form action="proceso.php" method="post"></form>
+
+    <fieldset>
+        <legend><b> DATOS PERSONALES </b></legend>
+            <p> Nombre: <input type="text"></p>
+            <p> Apellidos: <input type="text"></p>
+            <p> Edad: <input type="number"></p>
+            <p> Género: <br>
+                <input type="radio" name="hombre" value="Hombre"> Hombre
+                <input type="radio" name="mujer" value="Mujer"> Mujer
+            </p>
+    </fieldset>
+    <fieldset>
+        <legend><b> CONTACTO </b></legend>
+            <p> Correo Electrónico: <input type="text"></p>
+            <p> Codigo Postal: <input type="number"></p>
+            <p> Dirección: <input type="text"></p>
+            <p> Ciudad: </p> <select name="ciudades" id="1">
+                                    <em><option value="1">Jaén</option></em>
+                                    <em><option value="2">Málaga</option></em>
+                                    <em><option value="3">Granada</option></em>
+                                    <em><option value="4">Cordoba</option></em>
+                                    <em><option value="5">Sevilla</option></em>
+                                    <em><option value="6">Cádiz</option></em>
+                                    <em><option value="7">Huelva</option></em>
+                                    <em><option value="8">Almeria</option></em>
+                             </select>  
+            <p> Contraseña: <input type="password" name="contraseña" size="25"></p>
+    </fieldset>
+    <fieldset>
+        <legend><b> DATOS DE INTERES </b></legend>
+            <p> Estado Civil: <br>
+                    <input type="radio" name="casado" value="casado"> Casado
+                    <input type="radio" name="noCasado" value="noCasado"> No casado
+            </p>
+            <p> Hobbies: <br>
+                    <input type="checkbox" name="deporte"> Deporte <br>
+                    <input type="checkbox" name="cine"> Cine <br>
+                    <input type="checkbox" name="lectura"> Lectura <br>
+                    <input type="checkbox" name="correr"> Correr <br>
+            </p>
+            <p>  
+                <a href="/Tema5/Tarea5/horario.html" target="_blank"> Horario: </a>
+            </p>
+    </fieldset>
 </body>
 </html>
