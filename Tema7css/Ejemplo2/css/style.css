@@ -1,0 +1,19 @@
+* {color: blue;}
+
+p {text-align: center;} /* Para centrar todos los parrafos */
+
+.miclase {border: solid 1px red;} /* Para llamar a una clase se utiliza . */
+
+#miidentificador {background-color: cyan;} /* Para llamar a un id se utiliza # */
+
+ul li {background-color: red;} /* Se pone en el orden que esta por si hay un li repetido saber cual es y este seria el parrafo que tenga un ul primero y luego li*/
+
+h1, h2 {border: solid 3px green;}
+
+p>a {background-color: yellow;}  /* Selecciona hijo directo que aqui seria "a" que es el hijo directo de "p" .*/
+
+p+div {border: solid 2px blue;}
+
+
+p[lang = "es"]{background-color: red;}
+p[lang = "en"]{background-color: orange;}
