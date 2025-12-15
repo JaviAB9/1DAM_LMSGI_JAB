@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE texto [
+    <!ELEMENT texto (contenido)>
+    <!ENTITY asignaturas "6">              <!-- Significa que va a mandar a la asignatura de abajo sale 6 (El curso tiene 6 asignaturas)-->
+    <!ELEMENT contenido (#PCDATA)>
+]>
+
+<texto>
+    <contenido>
+        El curso tiene &asignaturas; asignaturas
+    </contenido>
+</texto>
